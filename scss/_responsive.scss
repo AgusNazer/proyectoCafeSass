@@ -1,0 +1,47 @@
+
+
+ /*  MOBILE */
+  
+ @media (max-width: 768px) {
+    .logo {
+      display: block;
+    }
+  
+    .botonera ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .h1-main, h2 {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .grilla-about, .grilla-menu {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .grilla-shop {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    h1, h3 {
+      text-align: center;
+    }
+    
+    .form-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .boton2, .boton1 {
+      width: 100%;
+      background-color: rgb(155, 144, 84);
+    }
+  }

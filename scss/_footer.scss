@@ -1,0 +1,35 @@
+.footer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "footer footer footer";
+    background-color: gainsboro;
+    grid-area: footer;
+  }
+  
+  .piePagina {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .redSocial a {
+    display: inline-block;
+    text-decoration: none;
+    width: 2.81em;
+    height: 2.81em;
+    line-height: 2.81em;
+    color: #000;
+    margin: right 0.62em;
+    border: 1px solid #000;
+  }
+  
+  .red-social :hover {
+    background-color: #95908b;
+  }
+  
+  .derechos, .box {
+    color: #000;
+  }
